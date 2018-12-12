@@ -1,0 +1,24 @@
+précalcul des status non corrélés
+et sauvegarde des status
+
+
+simPI:
+
+restorer status("statusN")
+calculPI
+
+
+
+
+batch:
+
+simPI(0) &
+simPI(1) &
+simPI(2) &
+...
+simPI(9) &
+
+
+
+g++ test.cpp -I./Random/include ./Random/lib/libCLHEP-Random-2.1.0.0.a -o test
+
